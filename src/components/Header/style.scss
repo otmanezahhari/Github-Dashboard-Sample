@@ -1,0 +1,41 @@
+#header {
+  padding: 1.5rem 0.8rem;
+  background-color: #0099ff;
+  color: white;
+
+  .hamburger-box {
+    position: relative;
+    span {
+      width: 4rem;
+      height: 0.3rem;
+      background-color: white;
+      display: inline-block;
+      position: relative;
+      top: -1rem;
+      margin-right: 1.5rem;
+      &::before,
+      &::after {
+        content: "";
+        position: absolute;
+        width: 4rem;
+        height: 0.3rem;
+        background-color: white;
+      }
+
+      &::before {
+        top: 1rem;
+        left: 0;
+      }
+      &::after {
+        top: 2rem;
+        left: 0;
+      }
+    }
+  }
+
+  .logo {
+    text-transform: capitalize;
+    font-weight: 700;
+    text-align: center;
+  }
+}

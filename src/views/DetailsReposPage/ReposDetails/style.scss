@@ -1,0 +1,23 @@
+.repos-detail-content {
+  text-align: center;
+  .title {
+    .elem {
+      margin-right: 1rem;
+      margin-bottom: 1rem;
+      display: inline-block;
+    }
+  }
+  .description {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+  }
+  .other-information {
+    .information-date {
+      .p {
+        margin-top: 1rem;
+        text-align: left;
+      }
+    }
+  }
+}
